@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>anekode</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="anekode." />
+    <meta property="og:description" content="coding • gaming • dying" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://anekode.github.io/" />
+    <meta property="og:image" content="https://anekode.github.io/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="anekode" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="anekode." />
+    <meta name="twitter:description" content="coding • gaming • dying" />
+    <meta name="twitter:image" content="https://anekode.github.io/og-image.png" />
+
+    <meta name="theme-color" content="#bb86fc" />
+
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#bb86fc" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#9d6cd6" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐙</text></svg>"
+    />
+
+    <style>
+      :root {
+        --bg: #0d1117;
+        --bg-alt: #161b22;
+        --text: #c9d1d9;
+        --text-muted: #8b949e;
+        --purple: #bb86fc;
+        --purple-dark: #9d6cd6;
+        --border: #30363d;
+        --hover-bg: #21262d;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .container {
+        background: var(--bg-alt);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        width: 100%;
+        max-width: 480px;
+        padding: 3.5rem 2.5rem;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      }
+
+      h1 {
+        font-size: 3.4rem;
+        font-weight: 700;
+        margin-bottom: 0.3rem;
+        letter-spacing: -0.02em;
+      }
+
+      .purple {
+        color: var(--purple);
+      }
+
+      .tagline {
+        color: var(--text-muted);
+        font-size: 1.25rem;
+        margin: 0.6rem 0 2.5rem;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin: 2rem 0;
+      }
+
+      .btn {
+        background: transparent;
+        border: 1px solid var(--border);
+        color: var(--text);
+        text-decoration: none;
+        font-size: 1.15rem;
+        font-weight: 500;
+        padding: 1.1rem 1.8rem;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .btn:hover {
+        background: var(--hover-bg);
+        border-color: var(--purple);
+        color: var(--purple);
+        transform: translateY(-2px);
+      }
+
+      .btn.purple-btn {
+        background: var(--purple);
+        border-color: var(--purple);
+        color: #0d1117;
+      }
+
+      .btn.purple-btn:hover {
+        background: var(--purple-dark);
+        border-color: var(--purple-dark);
+        color: #0d1117;
+      }
+
+      .footer {
+        margin-top: 3rem;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          padding: 2.8rem 1.8rem;
+        }
+        h1 {
+          font-size: 2.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>anekode<span class="purple">.</span></h1>
+      <div class="tagline">coding / gaming / dying</div>
+
+      <div class="links">
+        <a href="https://github.com/anekode" class="btn purple-btn" target="_blank" rel="noopener"> GitHub @anekode </a>
+
+        <a href="https://discord.com/users/1370445295690977452" class="btn" target="_blank" rel="noopener">
+          Discord · _nekode
+        </a>
+      </div>
+
+      <div class="footer">floating in the void since 2025 ∞</div>
+    </div>
+  </body>
+</html>
